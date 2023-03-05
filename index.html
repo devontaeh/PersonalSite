@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Scroll Site</title>
+    <title>Devontae Hudson</title>
     <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
@@ -11,161 +11,193 @@
       integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
       crossorigin="anonymous"
     />
+    <link rel="shortcut icon" href="https://i.ibb.co/7YpwsR8/pfp.jpg" type="image/x-icon"/>
   </head>
 
   <body>
     <!-- Navbar section -->
     <nav class="navbar">
       <div class="navbar__container">
-        <a href="#home" id="navbar__logo">COLOR</a>
+        <a href="#home" id="navbar__logo">Devontae Hudson</a>
         <div class="navbar__toggle" id="mobile-menu">
           <span class="bar"></span> <span class="bar"></span>
           <span class="bar"></span>
         </div>
         <ul class="navbar__menu">
           <li class="navbar__item">
-            <a href="#home" class="navbar__links" id="home-page">Home</a>
+            <a href="#about" class="navbar__links" id="about-page">About</a>
           </li>
           <li class="navbar__item">
-            <a href="#new" class="navbar__links" id="new-page">New Releases</a>
+            <a href="#projects" class="navbar__links" id="projects-page"
+              >Projects</a
+            >
           </li>
           <li class="navbar__item">
-            <a href="#clothing" class="navbar__links" id="clothing-page"
-              >Apparel</a>
-            
+            <a href="#contact" class="navbar__links" id="contact-page"
+              >Contact</a
+            >
           </li>
-          <li class="navbar__item">
-            <a href="#clothing" class="navbar__links" id="clothing-page"
-              >Our Story</a>
-       
-          <li class="navbar__btn">
-            <a href="#sign-up" class="button" id="signup">Sign Up</a>
-          </li>
+
+          <!-- <li class="navbar__btn">
+            <a href="#" class="button" id="signup">Contact</a>
+          </li> -->
         </ul>
       </div>
     </nav>
     <!-- Hero Section -->
+
     <div class="hero" id="home">
+      <!-- <div class="hero__img--container">
+        <div class="hero__img--pic"><img src="https://i.ibb.co/NCNYD10/skyline.jpg" alt="skyline" border="0"></div>
+      </div> -->
       <div class="hero__container">
-        <h1 class="hero__heading">Choose your <span>colors</span></h1>
-        <p class="hero__description">Unlimited Possibilities</p>
-        <button class="main__btn"><a href="#">Explore</a></button>
-      </div>
-    </div>
-    <!-- New Releases Section -->
-    <div class="main" id="new">
-      <div class="main__container">
-        <div class="main__img-container">
-          <div class="main__img--card"><i class="fas fa-layer-group"></i></div>
-        </div>
-        <div class="main__content">
-          <h1>What's New?</h1>
-          <h2>Whole lotta new merch</h2>
-          <p>Reach out to us to become a designer</p>
-          <button class="main__btn"><a href="#">Schedule Call</a></button>
+        <div class="hero__content">
+          <h1 class="hero__heading">Hi there! I'm <span>Devontae</span></h1>
+          <p class="hero__description">
+            Incoming Western University Mechatronic Systems Engineering Graduate Class of 2023 
+          </p>
+          <button class="main__btn"><a href="Devontae Hudson Resume - software.pdf" target="_blank">View Resume</a></button>
         </div>
       </div>
     </div>
 
-    <!-- ClothingSection -->
-    <div class="services" id="clothing">
-      <h1>Collection</h1>
-      <div class="services__wrapper">
-        <div class="services__card">
-          <h2>Customer Colour Ways</h2>
-          <p>AI Powered Technology</p>
-          <div class="services__btn"><button>Get Started</button></div>
+    <!-- About me Section -->
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__img-container">
+          <div class="main__img--card">
+            <img src="https://i.ibb.co/7YpwsR8/pfp.jpg" alt="pfp" />
+          </div>
         </div>
-        <div class="services__card">
-          <h2>Are you Ready?</h2>
-          <p>Take the Leap</p>
-          <div class="services__btn"><button>Get Started</button></div>
+        <div class="main__content">
+          <h1>Devontae Hudson</h1>
+          <h2>Mechatronic Systems Engineer</h2>
+          <p>
+            I have a keen interest in projects that allow me to utilize and grow my understanding of software development with real world applications. I am a strong candidate
+            as my experience in dynamic and demanding environments will be a positive asset to your team!
+          </p>
+          <button class="main__btn"><a href="#contact">Lets Connect!</a></button>
         </div>
-        <div class="services__card">
-          <h2>Full Gradient</h2>
-          <p>full gradient p</p>
-          <div class="services__btn"><button>Get Started</button></div>
+      </div>
+    </div>
+
+    <!--Projects Section -->
+    <div class="projects" id="projects">
+      <h1>Projects</h1>
+      <div class="projects__wrapper">
+        <div class="projects__card">
+          <h2>WFR</h2>
+          <b>CAN Protocol Implementation </b>
+          <p>Utilized Arduino to send data packets via CAN, ultimately simplyfing vehicle wire harnes</p>
+        
         </div>
-        <div class="services__card">
-          <h2>Endless</h2>
-          <p>endless p</p>
-          <div class="services__btn"><button>Get Started</button></div>
+        <div class="projects__card">
+          <h2>WFR</h2>
+          <b>Electronic Load Interface</b>
+          <p>Utilized Python to interface with Series IT8500 DC Programmable Load</p>
+        </div>
+
+        <div class="projects__card">
+          <h2>Autonomous Robot</h2>
+          <b>Closed-Loop Implementation </b>
+          <p>Utilized Arduino to allow devices sensors to dictate actuator movement in a closed-loop feedback system</p>
+          
+        </div>
+        <div class="projects__card">
+          <h2>Black Jack</h2>
+          <b>Casino Game</b>
+          <p>Utilized Java to create a fully interactive casino game</p>
+         
         </div>
       </div>
     </div>
 
     <!-- Our Story Section -->
-    <div class="main" id="ourstory">
+    <!-- <div class="contact" id="contact__page">
+      <div class="contact__container">
+
+      </div>
+    </div> -->
+    <!-- <div class="main" id="contact">
       <div class="main__container">
         <div class="main__content">
-          <h1>This is all about us</h1>
+          <h1>You Can Reach Me At</h1>
           <h2>Our Difference</h2>
           <p>Sign to up to learn more</p>
-          <button class="main__btn"><a href="#">Sign Up</a></button>
+          
         </div>
         <div class="main__img-container">
           <div class="main__img--card" id="card-2">
-            <i class="fas fa-users"></i>
+            <i class="fa fa-envelope" aria-hidden="true"></i>
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
+   
+    
+
 
     <!-- Footer Section -->
-    <div class="footer__container">
+    <div class="footer__container" id="contact">
       <div class="footer__link">
-            <div class="footer__link--wrapper">
-                <div class="footer__link--items">
-                    <h2>About Us</h2>
-                    <!-- link to sign up -->
-                    <a href="/sign-up">How it Works</a>
-                    <a href="/">Testimonials</a>
-                    <a href="/">Careers</a><a href="/">Terms of Service</a>
-                </div>
-                <div class="footer__link--items">
-                    <h2>Contact Us</h2>
-                    <!-- link to sign up -->
-                    <a href="/">Contact</a> <a href="/">Support</a>
-                    <a href="/">Testimonials</a>
-                    <a href="/">Careers</a>
-                </div>
-            </div>
-            <div class="footer__link--wrapper">
-                <div class="footer__link--items">
-                    <h2>Socials</h2>
-                    <!-- link to sign up -->
-                    <a href="/">Instagram</a><a href="/">Facebook</a>
-                    <a href="/">Youtube</a><a href="/">Twiter</a>
-                    <a href="/">Careers</a>
-                </div>
-                <div class="footer__link--items">
-                    <h2>Videos</h2>
-                    <!-- link to sign up -->
-                    <a href="/">Submit video</a>
-                    <a href="/">Testimonials</a>
-                    <a href="/">Careers</a>
-                </div>
-            </div>
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>My Links</h2>
+            <!-- link to sign up -->
+            <a href="https://www.linkedin.com/in/devontae-hudson/" target="_blank">LinkedIn</a>
+            <a href="mailto: dhudso3@uwo.ca">Email</a>
+            <a href="/">Resume</a>
+          </div>
+          <!-- <div class="footer__link--items">
+            <h2>Contact Us</h2> -->
+            <!-- link to sign up -->
+            <!-- <a href="/">Contact</a> <a href="/">Support</a>
+            <a href="/">Testimonials</a>
+            <a href="/">Careers</a>
+          </div> -->
         </div>
-        <section class="social__media">
-            <div class="social__media--wrap">
-                <div class="footer__logo">
-                    <a href="/" id="footer__logo">COLOR</a>
-                </div>
-                <p class="website__rights">© COLOR 2021. All rights reserved</p>
-                <div class="social__icons">
-                    <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-youtube"></i></a>
-                    <a href="/" class="social__icon--link" target='_blank'><i class="fab fa-instagram"></i></a>
-                    <a href="/" class="social__icon--link" target='_blank'><i class="fab fa-linkedin"></i></a>
-                    <a href="/" class="social__icon--link" target='_blank'><i class="fab fa-twitter"></i></a>
-
-                </div>
-            </div>
-        </section>
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Socials</h2>
+            <!-- link to sign up -->
+            <a href="/">Instagram</a><a href="/">Facebook</a>
+            <a href="/">Youtube</a><a href="/">Twiter</a>
+            <a href="/">Careers</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Videos</h2>
+            <!-- link to sign up -->
+            <a href="/">Submit video</a>
+            <a href="/">Testimonials</a>
+            <a href="/">Careers</a>
+          </div>
+        </div>
+      </div>
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo">Devontae Hudson</a>
+          </div>
+          <p class="website__rights">© DH 2021. All rights reserved</p>
+          <div class="social__icons">
+            <a href="https://www.linkedin.com/in/devontae-hudson/" target="_blank" class="social__icon--link" target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+            <a href="/" class="social__icon--link" target="_blank"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a href="/" class="social__icon--link" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+           
+            <a href="/" class="social__icon--link" target="_blank"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </section>
     </div>
 
-    
-    
     <script src="app.js"></script>
   </body>
 </html>

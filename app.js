@@ -1,21 +1,24 @@
-const menu = document.querySelector('#mobile-menu'); 
-const menuLinks = document.querySelector('.navbar__menu');
+
+//creating toggle varibles
+const menu = document.querySelector('#mobile-menu'); //targets mobile menu
+const menuLinks = document.querySelector('.navbar__menu'); //this the class for the navbar
 const navLogo = document.querySelector('#navbar__logo');
 
 
 
 //display mobile menu
 
-const mobileMenu = () => { //arrow function
-  menu.classList.toggle('is-active'); 
-  menuLinks.classList.toggle('active');
+const mobileMenu = () => { //arrow function that adds class that is active or is-active
+  menu.classList.toggle('is-active');  //true or false -> toggles class is-active
+  menuLinks.classList.toggle('active'); //toggle class is-active
 };   
 
-menu.addEventListener('click', mobileMenu);
+menu.addEventListener('click', mobileMenu); //toggles the mobile menu function when its clicked
 
-
+//shows active menu when scrolling
 const highLighMenu = () =>{
 
+//targets all of the menus
   const elem = document.querySelector('.highlight');
   const homeMenu = document.querySelector('#home-page');
   const newMenu = document.querySelector('#new-page');
@@ -24,7 +27,9 @@ const highLighMenu = () =>{
   let scrollPos = window.scrollY;
   console.log(scrollPos)
 
-  if(window.innerWidth > 960 && scrollPos < 600){
+
+//switches highlight in nav bar when at a certain hight
+  if(window.innerWidth > 960 && scrollPos < 600){ //scroll posoitons 
     homeMenu.classList.add('highlight')
     newMenu.classList.remove('highlight')
     return
