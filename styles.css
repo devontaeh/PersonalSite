@@ -535,10 +535,10 @@
 }
  
 .projects__card {
-  margin: 50px;
+  margin: 20px;
   height: 425px;
   width: 100%;
-  max-width: 300px;
+  max-width: 270px;
   border-radius: 4px;
   display: flex;
   flex-direction: column;
