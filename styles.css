@@ -127,7 +127,7 @@
   }
 
   .navbar__menu.active {
-    background: whitesmoke;
+    background: rgb(111, 132, 201);
     top: 100%;
     opacity: 1;
     transition: all 0.5s ease;
