@@ -497,8 +497,8 @@
 .projects {
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  /* padding-left: 15px;
+  padding-right: 15px; */
 
   background: #f1f1f1;
   display: flex;
@@ -529,16 +529,16 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   overflow-x: auto;
-  margin: 0 auto;
+  margin: 0 1%;
 
   
 }
  
 .projects__card {
-  margin: 20px;
-  height: 425px;
+  margin: 2rem;
+  height: 26.5rem;
   width: 100%;
-  max-width: 270px;
+  max-width: 17rem;
   border-radius: 4px;
   display: flex;
   flex-direction: column;
