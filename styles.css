@@ -127,7 +127,7 @@
   }
 
   .navbar__menu.active {
-    background: whitesmoke;
+    background: rgb(111, 132, 201);
     top: 100%;
     opacity: 1;
     transition: all 0.5s ease;
@@ -456,9 +456,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
 
   .main__img--card{
+    max-width: 50%;
     width: 250px;
     height: 250px;
     margin-bottom: 2rem;
@@ -506,7 +508,11 @@
   justify-content: center;
   align-items: center;
   height: 100%;
+<<<<<<< HEAD
   padding-top: 10rem;
+=======
+  padding: 10rem 1rem;
+>>>>>>> scroll_projects
  
   /* border: 10px solid #73AD21; */
 }
@@ -519,7 +525,7 @@
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  margin-bottom: 10rem;
+  margin-bottom:2rem;
   font-size: 2.5rem;
  
 }
@@ -535,10 +541,14 @@
 }
  
 .projects__card {
-  margin: 50px;
+  margin: 20px;
   height: 425px;
   width: 100%;
+<<<<<<< HEAD
   max-width: 300px;
+=======
+  max-width: 270px;
+>>>>>>> scroll_projects
   border-radius: 4px;
   display: flex;
   flex-direction: column;
